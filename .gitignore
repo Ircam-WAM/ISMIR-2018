@@ -1,0 +1,80 @@
+*.py[co]
+*~
+
+# Packages
+*.egg
+*.egg-info
+#dist
+build
+eggs
+parts
+bin
+sdist
+develop-eggs
+.installed.cfg
+*.directory
+var
+data/static
+.thumbnails
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+#Translations
+#*.mo
+
+#Mr Developer
+.mr.developer.cfg
+
+### Filetype & folder ###
+#########################
+
+dist
+build
+*.unprefixed.css
+*.log
+*.map
+bower_components
+node_modules
+.sass-cache
+
+### SublimeText ###
+###################
+
+*.sublime-workspace
+# *.sublime-project
+
+### OSX ###
+###########
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Windows ###
+###############
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+sources
