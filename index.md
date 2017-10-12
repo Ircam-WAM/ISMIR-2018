@@ -5,7 +5,7 @@ category: about
 
 # ISMIR International Conference
 
-## xxxxx 2018
+## xxxxxx 2018
 ### Ircam – Centre Pompidou
 
 Bla Bla
