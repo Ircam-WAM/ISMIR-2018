@@ -8,7 +8,7 @@ SITEURL = 'http://ismir2018.ircam.fr'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 # SITEURL = 'http://yomix.org'
-THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+THEME = '/srv/lib/pelican-themes/pelican-striped-html5up'
 BOOTSTRAP_THEME = 'united'
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
@@ -50,6 +50,7 @@ PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
 PLUGINS = ['assets', 'jinja2content', 'sitemap', 'gallery',
             'i18n_subsites',
             'render_math',
+            'neighbors',
         #    'liquid_tags.img', 'liquid_tags.video',
         #    'liquid_tags.youtube', 'liquid_tags.vimeo',
         #    'liquid_tags.include_code',
