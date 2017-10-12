@@ -7,8 +7,9 @@ SITEURL = 'http://ismir2018.ircam.fr'
 # AUTHOR = 'Guillaume Pellerin'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
-# SITEURL = 'http://yomix.org'
-THEME = '/srv/lib/pelican-themes/pelican-striped-html5up'
+#THEME = '/srv/lib/pelican-themes/pelican-striped-html5up'
+THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+
 BOOTSTRAP_THEME = 'united'
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
