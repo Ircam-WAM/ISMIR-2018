@@ -48,8 +48,8 @@ TWITTER_WIDGET_ID = '516222825451888640'
 
 PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
 PLUGINS = ['assets', 'jinja2content', 'sitemap', 'gallery',
-        #    'i18n_subsites',
-        #    'render_math',
+            'i18n_subsites',
+            'render_math',
         #    'liquid_tags.img', 'liquid_tags.video',
         #    'liquid_tags.youtube', 'liquid_tags.vimeo',
         #    'liquid_tags.include_code',
@@ -96,10 +96,10 @@ PELICANGIT_PORT=8888
 
 MARKDOWN = {'extensions': ['markdown.extensions.meta',]}
 
-# JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
-# I18N_SUBSITES = {
-#     'fr': {
-#         'SITENAME': 'Musique et hacking',
-#         }
-#     }
+I18N_SUBSITES = {
+    'fr': {
+        'SITENAME': 'Musique et hacking',
+        }
+    }
