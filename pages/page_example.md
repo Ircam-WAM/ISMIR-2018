@@ -1,13 +1,4 @@
-title: Page example
+title: Important Dates
 
-# Title 1
+# Important Dates
 
-Bla bla
-
-## Title 2
-
-Bla bla
-
-### Title 3
-
-Bla bla
