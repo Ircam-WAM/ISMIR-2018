@@ -41,7 +41,7 @@ SOCIAL = (('Twitter', 'https://twitter.com/Ircam/'),
           ('GitHub', 'https://github.com/Ircam-RnD/'),
           )
 
-DISQUS_SITENAME='ismir2018'
+#DISQUS_SITENAME='ismir2018'
 GITHUB_USER = 'ismir2018'
 TWITTER_CARDS = False
 TWITTER_USERNAME = 'ismir2018'
