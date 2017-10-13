@@ -15,7 +15,7 @@ BOOTSTRAP_THEME = 'united'
 
 PATH = '/var/in'
 OUTPUT_PATH = '/var/out'
-STATIC_PATHS = ['doc', 'images']
+STATIC_PATHS = ['doc', 'images', 'extra']
 
 TIMEZONE = 'Europe/Paris'
 #
@@ -105,3 +105,15 @@ I18N_SUBSITES = {
         'SITENAME': 'Musique et hacking',
         }
     }
+
+DISPLAY_PAGES_ON_MENU = True
+
+# Tell Pelican to change the path to 'static/custom.css' in the output dir
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/css/custom.css'},
+    'extra/custom.js': {'path': 'static/js/custom.js'}
+}
+
+SHOW_DATE_MODIFIED = False
+
+DISPLAY_ARTICLE_INFO_ON_INDEX = False
