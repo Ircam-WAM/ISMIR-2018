@@ -34,7 +34,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Ircam', 'http://www.ircam.fr'),
+LINKS =  (('Télécom ParisTech', 'https://www.telecom-paristech.fr/'), ('Ircam', 'http://www.ircam.fr'), ('ISMIR', 'http://www.ismir.net/')
           )
 
 # Social widget
