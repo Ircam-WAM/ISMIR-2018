@@ -8,7 +8,8 @@ SITEURL = 'http://ismir2018.ircam.fr'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 #THEME = '/srv/lib/pelican-themes/pelican-striped-html5up'
-THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+#THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+THEME = '/srv/lib/pelican-themes/flex'
 
 BOOTSTRAP_THEME = 'united'
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
