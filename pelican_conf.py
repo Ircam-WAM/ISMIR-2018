@@ -98,7 +98,7 @@ PELICANGIT_WHITELISTED_FILES = [
 PELICANGIT_PORT=8888
 
 MARKDOWN = {'extensions': ['markdown.extensions.meta',]}
-ARKDOWN = {
+MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.tables':{},
     }
