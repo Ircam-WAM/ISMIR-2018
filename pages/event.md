@@ -5,7 +5,7 @@ author: peeters
 
 The following is a preliminary provisional planning of the conference subject to adaptations.
 
-![]({filename}/images/program.png)
+![Program]({filename}/images/program.png)
 
 ## Tutorials
 

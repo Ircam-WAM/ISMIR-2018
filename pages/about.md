@@ -16,7 +16,7 @@ ISMIR is a non-profit organization which, among other things, oversees the organ
 |: -------------   :|: ------------- :|: ------------- :|
 | Slim Essid | Geoffroy Peeters | Gaël Richard |
 | Télécom ParisTech | IRCAM | Télécom ParisTech |
-| ![]({filename}/images/slimessid_200.png) | ![]({filename}/images/geoffroypeeters_200.png) | ![]({filename}/images/gaelrichard_200.png) |
+| ![SlimEsiid]({filename}/images/slimessid_200.png) | ![GeoffroyPeeters]({filename}/images/geoffroypeeters_200.png) | ![GaelRichard]({filename}/images/gaelrichard_200.png) |
 
 
 ## Program Chairs
