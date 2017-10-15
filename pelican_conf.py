@@ -11,11 +11,20 @@ RELATIVE_URLS = True
 THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
 #THEME = '/srv/lib/pelican-themes/flex'
 
+#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-striped-html5up_r'
+#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-bootstrap3'
+#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/bricks2'
+#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/flex'
+
+
 BOOTSTRAP_THEME = 'united'
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
 PATH = '/var/in'
 OUTPUT_PATH = '/var/out'
+#PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
+#OUTPUT_PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/output/'
+
 STATIC_PATHS = ['doc', 'images', 'extra']
 
 TIMEZONE = 'Europe/Paris'
@@ -49,6 +58,8 @@ TWITTER_USERNAME = 'ismir2018'
 TWITTER_WIDGET_ID = '516222825451888640'
 
 PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
+#PLUGIN_PATHS = ['/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-plugins/']
+
 PLUGINS = ['assets', 'jinja2content', 'sitemap', 'gallery',
             'i18n_subsites',
             'render_math',
