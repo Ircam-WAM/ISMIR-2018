@@ -109,11 +109,11 @@ PELICANGIT_WHITELISTED_FILES = [
 PELICANGIT_PORT=8888
 
 MARKDOWN = {'extensions': ['markdown.extensions.meta',]}
-MARKDOWN = {
-    'extension_configs': {
-        'markdown.extensions.tables':{},
-    }
-}
+#MARKDOWN = {
+#    'extension_configs': {
+#        'markdown.extensions.tables':{},
+#    }
+#}
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
