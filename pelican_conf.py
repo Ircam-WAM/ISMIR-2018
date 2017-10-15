@@ -8,14 +8,15 @@ SITEURL = 'http://ismir2018.ircam.fr'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 #THEME = '/srv/lib/pelican-themes/pelican-striped-html5up'
-THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+#THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+THEME = '/srv/lib/pelican-themes/flex'
 
 BOOTSTRAP_THEME = 'united'
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
 PATH = '/var/in'
 OUTPUT_PATH = '/var/out'
-STATIC_PATHS = ['doc', 'images']
+STATIC_PATHS = ['doc', 'images', 'extra']
 
 TIMEZONE = 'Europe/Paris'
 #
@@ -33,7 +34,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Ircam', 'http://www.ircam.fr'),
+LINKS =  (('Télécom ParisTech', 'https://www.telecom-paristech.fr/'), ('Ircam', 'http://www.ircam.fr'), ('ISMIR', 'http://www.ismir.net/')
           )
 
 # Social widget
@@ -97,6 +98,11 @@ PELICANGIT_WHITELISTED_FILES = [
 PELICANGIT_PORT=8888
 
 MARKDOWN = {'extensions': ['markdown.extensions.meta',]}
+ARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.tables':{},
+    }
+}
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
@@ -105,3 +111,15 @@ I18N_SUBSITES = {
         'SITENAME': 'Musique et hacking',
         }
     }
+
+DISPLAY_PAGES_ON_MENU = True
+
+# Tell Pelican to change the path to 'static/custom.css' in the output dir
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/css/custom.css'},
+    'extra/custom.js': {'path': 'static/js/custom.js'}
+}
+
+SHOW_DATE_MODIFIED = False
+
+DISPLAY_ARTICLE_INFO_ON_INDEX = False
