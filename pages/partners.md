@@ -1,14 +1,14 @@
 title: Partners
 author: peeters
+date:
+slug: partners
+category: partners
+tags:
+order: 6
+parent:
+haschild: true
 
 ---------------------------------------------
 
-## Become an Industry Partner
-
-
-|                         | Diamond       | Platinum      | Gold          | Silver
-|:-------------           |:------------- |:------------- |:------------- |:-------------
-| Logo                    | _             | _             | _             | _
-| Poster                  | _             | _             | _             | _
-| Included Registrations  | _             | _             | _             | _
-| Promotional Items       | _             | _             | _             | _
+[Become an Industry Partner]({filename}/pages/partnersCall.md)
+---------------------------------------------

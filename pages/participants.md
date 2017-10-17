@@ -1,16 +1,15 @@
 title: Participants
 author: peeters
+date:
+slug: participants
+category: participants
+tags:
+order: 4
+parent:
+haschild: true
 
-## Registration
+[Venue]({filename}/pages/participantsVenue.md)
 
-| **Student Registration**| **Tutorial**    | **Main conference**
-|:-------------           |:-------------   |:-------------
-| Early                   | _               | _            
-| General                 | _               | _            
-| Onsite  | _             | _               | _            
+[Registration]({filename}/pages/participantsRegistration.md)
 
-| **Standard Registration**| **Tutorial**    | **Main conference**
-|:-------------           |:-------------   |:-------------
-| Early                   | _               | _            
-| General                 | _               | _            
-| Onsite  | _             | _               | _            
+[Financial Support]({filename}/pages/participantsFinancialSupport.md)
