@@ -1,8 +1,7 @@
 title: Registration
 author: peeters
-date: 2017-10-16
 slug: participantRegistration
-category: 
+category:
 tags: registration
 order: 2
 parent: participants

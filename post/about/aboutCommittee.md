@@ -1,7 +1,7 @@
 title: Organizing Committee
 author: peeters
 slug: aboutOrganizingCommittee
-category: 
+category:
 tags: aboutCommittee
 order: 2
 parent: about

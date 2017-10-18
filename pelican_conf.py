@@ -16,7 +16,7 @@ THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/p
 BOOTSTRAP_THEME = 'yeti'
 
 LOAD_CONTENT_CACHE = False
-
+ 
 MAIN_MENU = False
 LINKS = (('Portfolio', '//alexandrevicenzi.com'),)
 

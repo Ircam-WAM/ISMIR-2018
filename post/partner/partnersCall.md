@@ -1,8 +1,7 @@
 title: Become an Industry Partner
 author: peeters
-date:
 slug: partnersCall
-category: 
+category:
 tags:
 order: 1
 parent: partners

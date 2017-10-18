@@ -1,6 +1,5 @@
 title: Tutorials
 author: peeters
-date:
 slug: eventsTutorials
 category:
 tags: tutorial

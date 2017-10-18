@@ -1,7 +1,7 @@
 title: About ISMIR
 author: peeters
 slug: aboutISMIR
-category: 
+category:
 tags: aboutISMIR
 order: 1
 parent: about

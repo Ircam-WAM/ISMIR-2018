@@ -1,6 +1,5 @@
 title: Music Hack Days
 author: peeters
-date:
 slug: satelliteEventsHackDays
 category:
 tags: music-hack-day
