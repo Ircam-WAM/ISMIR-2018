@@ -16,7 +16,7 @@ THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'yeti'
 
 LOAD_CONTENT_CACHE = False
-
+ 
 MAIN_MENU = False
 LINKS = (('Portfolio', '//alexandrevicenzi.com'),)
 
