@@ -1,7 +1,7 @@
 title: Home
 author: peeters
 category:
-slug:
+slug: index
 save-as: index.html
 Illustration: black.png
 
