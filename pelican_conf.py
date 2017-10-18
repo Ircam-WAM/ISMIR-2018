@@ -7,17 +7,42 @@ SITEURL = 'http://ismir2018.ircam.fr'
 # AUTHOR = 'Guillaume Pellerin'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
-#THEME = '/srv/lib/pelican-themes/pelican-striped-html5up'
-#THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
-THEME = '/srv/lib/pelican-themes/Flex'
 
-#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-striped-html5up_r'
+#THEME = '/srv/lib/pelican-themes/flex'
+THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/flex2'
 #THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-bootstrap3'
-#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/bricks2'
-#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/flex'
+#BOOTSTRAP_THEME = 'united'
+BOOTSTRAP_THEME = 'yeti'
 
+LOAD_CONTENT_CACHE = False
 
-BOOTSTRAP_THEME = 'united'
+MAIN_MENU = False
+LINKS = (('Portfolio', '//alexandrevicenzi.com'),)
+
+SOCIAL = (('linkedin', 'https://br.linkedin.com/in/test'),
+          ('github', 'https://github.com/test'),
+          ('google', 'https://google.com/+Test'),
+          ('rss', '//www.example.com/feeds/all.atom.xml'))
+
+#MENUITEMS = (('Archives', '/archives.html'),
+#             ('Categories', '/categories.html'),
+#             ('Tags', '/tags.html'),)
+
+#USE_LESS = True
+#SITELOGO = '/images/ismir2018logo_black_short_L200.png'
+#SITELOGOLONG = '/images/ismir2018logo_black_long.png'
+
+BANNER = '/images/ismir2018logo_black_long_empty.png'
+BANNER_SUBTITLE = 'September 23-27, Paris, France'
+BANNER_ALL_PAGES = True
+HIDE_SIDEBAR = False
+DISPLAY_PAGES_ON_MENU = True
+BOOTSTRAP_NAVBAR_INVERSE = False
+DISPLAY_ARTICLE_INFO_ON_INDEX = False
+USE_FOLDER_AS_CATEGORY = True
+DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
 PATH = '/var/in'
@@ -32,10 +57,9 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
 DEFAULT_DATE = 'fs'
 
-SUMMARY_MAX_LENGTH = 127
+SUMMARY_MAX_LENGTH = 0
 SLUGIFY_SOURCE = 'title'
 # DEFAULT_PAGINATION = 5
-
 
 # Feed generation is usually not desired when developing
 # FEED_ALL_ATOM = None
@@ -43,13 +67,17 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Télécom ParisTech', 'https://www.telecom-paristech.fr/'), ('Ircam', 'http://www.ircam.fr'), ('ISMIR', 'http://www.ismir.net/')
+LINKS =  (('Télécom ParisTech', 'https://www.telecom-paristech.fr/'),
+            ('Ircam', 'http://www.ircam.fr'),
+            ('ismir.net', 'http://www.ismir.net/'),
+            ('WiMIR', 'https://wimir.wordpress.com/'),
           )
 
 # Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/Ircam/'),
-          ('GitHub', 'https://github.com/Ircam-RnD/'),
-          )
+#SOCIAL = (('Twitter', 'https://twitter.com/Ircam/'),
+#          ('GitHub', 'https://github.com/Ircam-RnD/'),
+#          )
+SOCIAL = ()
 
 #DISQUS_SITENAME='ismir2018'
 GITHUB_USER = 'ismir2018'
@@ -108,23 +136,11 @@ PELICANGIT_WHITELISTED_FILES = [
 
 PELICANGIT_PORT=8888
 
-#MARKDOWN = {
-#    'extension_configs': {
-#        'markdown.extensions.tables':{},
-#    }
-#}
-
+MARKDOWN = {'extensions': ['markdown.extensions.meta',]}
 MARKDOWN = {
-    'extensions': ['markdown.extensions.meta',],
     'extension_configs': {
-        'markdown.extensions.codehilite': {
-            'css_class': 'highlight',
-        },
-        'markdown.extensions.extra': {},
-        # optionally, more extensions,
-        # e.g. markdown.extensions.meta
-    },
-    'output_format': 'html5',
+        'markdown.extensions.tables':{},
+    }
 }
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
@@ -135,8 +151,6 @@ I18N_SUBSITES = {
         }
     }
 
-DISPLAY_PAGES_ON_MENU = True
-
 # Tell Pelican to change the path to 'static/custom.css' in the output dir
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/css/custom.css'},
@@ -144,5 +158,3 @@ EXTRA_PATH_METADATA = {
 }
 
 SHOW_DATE_MODIFIED = False
-
-DISPLAY_ARTICLE_INFO_ON_INDEX = False

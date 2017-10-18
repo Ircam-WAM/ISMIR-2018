@@ -1,31 +1,37 @@
 title: Important Dates
-save_as: pages/important-dates.html
 author: peeters
+date:
+slug: importantDates
+category:
+tags:
+order: 1
+parent:
+haschild: false
 
-## Paper submission
+### Paper submission
 
 |Event            | Date
 |:-------------   |:-------------
 | Abstract Submission         | _
 | Final Submission            | _
 | Notification of Acceptance  | _
-| Camera-ready upload         | _
+| Camera-Ready Upload         | _
 
-## Tutorials
+### Tutorials
 
 | Event                       |  Date
 |:-------------               |: -------------
 | Proposal Submission         | _
 | Notification of Acceptance  | _
 
-## Late-breaking and Demos
+### Late-breaking and Demos
 
 | Event             | Date
 |:-------------     |: -------------
-| Submissions open  | _
-| Submissions close | _
+| Submissions Open  | _
+| Submissions Close | _
 
-## Registration
+### Registration
 
 | Event                             | Date
 |:-------------                     |: -------------
