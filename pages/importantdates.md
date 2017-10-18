@@ -1,6 +1,5 @@
 title: Important Dates
 author: peeters
-date:
 slug: importantDates
 category:
 tags:

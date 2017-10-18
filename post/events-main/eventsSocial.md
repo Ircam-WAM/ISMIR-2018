@@ -1,8 +1,7 @@
 title: Social Events
 author: peeters
-date:
 slug: eventsSocial
-category: 
+category:
 tags:
 order: 9
 parent: events

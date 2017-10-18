@@ -1,5 +1,4 @@
 title: Call for Satellite Workshops
-date:
 slug: satelliteEventsCall
 category:
 tags:

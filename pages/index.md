@@ -1,6 +1,5 @@
 title: Home
 author: peeters
-date: 2017-10-20
 category:
 slug:
 save-as: index.html

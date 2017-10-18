@@ -1,8 +1,7 @@
 title: All events at a glance
 author: peeters
-date:
 slug: eventsAtAGlance
-category: 
+category:
 tags: eventsAtAGlance
 order: 1
 parent: events

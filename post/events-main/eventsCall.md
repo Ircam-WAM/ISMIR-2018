@@ -1,6 +1,5 @@
 title: Call for Participation
 author: peeters
-date:
 slug: eventsCall
 category:
 tags: eventsCall
