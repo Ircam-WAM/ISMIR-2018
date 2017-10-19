@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 SITENAME = "ISMIR 2018"
 SITEURL = 'http://ismir2018.ircam.fr'
@@ -16,7 +17,7 @@ THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/p
 BOOTSTRAP_THEME = 'yeti'
 
 LOAD_CONTENT_CACHE = False
- 
+
 MAIN_MENU = False
 LINKS = (('Portfolio', '//alexandrevicenzi.com'),)
 
@@ -45,10 +46,11 @@ DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
-#PATH = '/var/in'
-#OUTPUT_PATH = '/var/out'
-PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
-OUTPUT_PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/output/'
+PATH = '/var/in'
+OUTPUT_PATH = '/var/out'
+if not os.path.exists(PATH) and os.path.exists(OUTPUT_PATH):
+    PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
+    OUTPUT_PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/output/'
 
 STATIC_PATHS = ['doc', 'images', 'extra']
 
