@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 SITENAME = "ISMIR 2018"
 SITEURL = 'http://ismir2018.ircam.fr'
@@ -49,6 +50,11 @@ PATH = '/var/in'
 OUTPUT_PATH = '/var/out'
 #PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
 #OUTPUT_PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/output/'
+
+if not os.path.exists(PATH) and not os.path.exists(OUTPUT_PATH):
+    PATH = '/var/in'
+    OUTPUT_PATH = '/var/out'
+
 
 STATIC_PATHS = ['doc', 'images', 'extra']
 
