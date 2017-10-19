@@ -2,7 +2,7 @@ title: Venue at Cité Internationale Universitaire de Paris (CIUP)
 author: peeters
 slug: participantsVenue
 category:
-tags: CIUP
+tags: CIUP 
 order: 1
 parent: participants
 
