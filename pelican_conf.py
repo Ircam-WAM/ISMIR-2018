@@ -9,14 +9,14 @@ SITEURL = 'http://ismir2018.ircam.fr'
 RELATIVE_URLS = True
 
 #THEME = '/srv/lib/pelican-themes/flex'
-#THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
 #THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/flex2'
-THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-bootstrap3'
+#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-bootstrap3'
 #BOOTSTRAP_THEME = 'united'
 BOOTSTRAP_THEME = 'yeti'
 
 LOAD_CONTENT_CACHE = False
- 
+
 MAIN_MENU = False
 LINKS = (('Portfolio', '//alexandrevicenzi.com'),)
 
@@ -45,10 +45,10 @@ DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
-#PATH = '/var/in'
-#OUTPUT_PATH = '/var/out'
-PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
-OUTPUT_PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/output/'
+PATH = '/var/in'
+OUTPUT_PATH = '/var/out'
+#PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
+#OUTPUT_PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/output/'
 
 STATIC_PATHS = ['doc', 'images', 'extra']
 
@@ -85,8 +85,8 @@ TWITTER_CARDS = False
 TWITTER_USERNAME = 'ismir2018'
 TWITTER_WIDGET_ID = '516222825451888640'
 
-#PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
-PLUGIN_PATHS = ['/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-plugins/']
+PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
+#PLUGIN_PATHS = ['/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-plugins/']
 
 PLUGINS = ['assets', 'jinja2content', 'sitemap', 'gallery',
             'i18n_subsites',
