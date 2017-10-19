@@ -52,7 +52,7 @@ DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
 OUTPUT_PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/output/'
 
-if not os.path.exists(PATH) and os.path.exists(OUTPUT_PATH):
+if not os.path.exists(PATH) and not os.path.exists(OUTPUT_PATH):
     PATH = '/var/in'
     OUTPUT_PATH = '/var/out'
 
