@@ -92,8 +92,8 @@ TWITTER_CARDS = False
 TWITTER_USERNAME = 'ismir2018'
 TWITTER_WIDGET_ID = '516222825451888640'
 
-PLUGIN_PATHS = ['/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-plugins/']
-if not os.path.exists(PLUGIN_PATHS):
+PLUGIN_PATHS = ['/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-plugins/',]
+if not os.path.exists(PLUGIN_PATHS[0]):
     PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
 
 PLUGINS = ['assets', 'jinja2content', 'sitemap', 'gallery',
