@@ -48,6 +48,8 @@ DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
+doLocal = False
+
 if doLocal:
     PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
     OUTPUT_PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/output/'
