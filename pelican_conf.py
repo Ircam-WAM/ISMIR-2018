@@ -151,11 +151,11 @@ MARKDOWN = {
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
-I18N_SUBSITES = {
-    'fr': {
-        'SITENAME': 'Musique et hacking',
-        }
-    }
+# I18N_SUBSITES = {
+#     'fr': {
+#         'SITENAME': 'Musique et hacking',
+#         }
+#     }
 
 # Tell Pelican to change the path to 'static/custom.css' in the output dir
 EXTRA_PATH_METADATA = {
