@@ -9,14 +9,10 @@ SITEURL = 'http://ismir2018.ircam.fr'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-doLocal = True
-
-if doLocal:
-    #THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-bootstrap3'
-    THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-chameleon-master'
-else:
-    THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
-
+#THEME = '/srv/lib/pelican-themes/flex'
+THEME = '/srv/lib/pelican-themes/pelican-chameleon'
+#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/flex2'
+#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-bootstrap3'
 #BOOTSTRAP_THEME = 'united'
 BOOTSTRAP_THEME = 'yeti'
 
@@ -24,7 +20,7 @@ BS3_THEME = 'http://bootswatch.com/cosmo/bootstrap.min.css'
 
 LOAD_CONTENT_CACHE = False
 
-MAIN_MENU = False
+MAIN_MENU = True
 LINKS = (('Portfolio', '//alexandrevicenzi.com'),)
 
 SOCIAL = (('linkedin', 'https://br.linkedin.com/in/test'),
@@ -130,7 +126,7 @@ else:
     PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
 
 PLUGINS = ['assets', 'jinja2content', 'sitemap', 'gallery',
-            'i18n_subsites',
+            # 'i18n_subsites',
             'render_math',
             'neighbors',
         #    'liquid_tags.img', 'liquid_tags.video',
@@ -184,13 +180,13 @@ MARKDOWN = {
     }
 }
 
-JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
+# JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
-I18N_SUBSITES = {
-    'fr': {
-        'SITENAME': 'Musique et hacking',
-        }
-    }
+# I18N_SUBSITES = {
+#     'fr': {
+#         'SITENAME': 'Musique et hacking',
+#         }
+#     }
 
 # Tell Pelican to change the path to 'static/custom.css' in the output dir
 EXTRA_PATH_METADATA = {
@@ -199,3 +195,5 @@ EXTRA_PATH_METADATA = {
 }
 
 SHOW_DATE_MODIFIED = False
+
+FAVICON = ''
