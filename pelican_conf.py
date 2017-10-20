@@ -18,7 +18,7 @@ BOOTSTRAP_THEME = 'yeti'
 
 LOAD_CONTENT_CACHE = False
 
-MAIN_MENU = False
+MAIN_MENU = True
 LINKS = (('Portfolio', '//alexandrevicenzi.com'),)
 
 SOCIAL = (('linkedin', 'https://br.linkedin.com/in/test'),
