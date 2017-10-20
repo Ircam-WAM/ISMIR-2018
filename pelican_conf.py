@@ -10,7 +10,7 @@ SITEURL = 'http://ismir2018.ircam.fr'
 RELATIVE_URLS = True
 
 #THEME = '/srv/lib/pelican-themes/flex'
-THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+THEME = '/srv/lib/pelican-themes/pelican-chameleon'
 #THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/flex2'
 #THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-bootstrap3'
 #BOOTSTRAP_THEME = 'united'
