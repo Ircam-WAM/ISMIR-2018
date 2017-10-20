@@ -9,12 +9,18 @@ SITEURL = 'http://ismir2018.ircam.fr'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-#THEME = '/srv/lib/pelican-themes/flex'
-THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
-#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/flex2'
-#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-bootstrap3'
+doLocal = True
+
+if doLocal:
+    #THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-bootstrap3'
+    THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-chameleon-master'
+else:
+    THEME = '/srv/lib/pelican-themes/pelican-bootstrap3'
+
 #BOOTSTRAP_THEME = 'united'
 BOOTSTRAP_THEME = 'yeti'
+
+BS3_THEME = 'http://bootswatch.com/cosmo/bootstrap.min.css'
 
 LOAD_CONTENT_CACHE = False
 
@@ -46,10 +52,12 @@ DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
-PATH = '/var/in'
-OUTPUT_PATH = '/var/out'
-#PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
-#OUTPUT_PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/output/'
+if doLocal:
+    PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
+    OUTPUT_PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/output/'
+else:
+    PATH = '/var/in'
+    OUTPUT_PATH = '/var/out'
 
 if not os.path.exists(PATH) and not os.path.exists(OUTPUT_PATH):
     PATH = '/var/in'
@@ -63,6 +71,7 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
 DEFAULT_DATE = 'fs'
 
+
 SUMMARY_MAX_LENGTH = 127
 SLUGIFY_SOURCE = 'title'
 # DEFAULT_PAGINATION = 5
@@ -71,6 +80,30 @@ SLUGIFY_SOURCE = 'title'
 # FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+
+MENUITEMS = [
+('Home', '/'),
+('Important Dates', '/pages/important-dates.html'),
+('Participants', [
+    ('Venue', '/pages/participants-venue.html'),
+    ('Registration', '/pages/participants-registration.html'),
+    ]),
+('Events-Main', [
+    ('All events at a glance', '/pages/events-at-a-glance.html'),
+    ('Call for Participation', '/pages/events-call.html'),
+    ]),
+('Events-Satelitte', [
+    ]),
+('Partners', [
+    ('Become an Industry Partner', '/pages/partners-call.html'),
+    ]),
+('About', [
+    ('About ISMIR', '/pages/about-ismir.html'),
+    ('Organizing Committee', '/pages/about-organizing-committee.html'),
+    ]),
+]
+FAVICON_TYPE = 'png'
+FAVICON = '/images/ismir2018logo_black_long.png'
 
 # Blogroll
 LINKS =  (('Télécom ParisTech', 'https://www.telecom-paristech.fr/'),
@@ -91,8 +124,10 @@ TWITTER_CARDS = False
 TWITTER_USERNAME = 'ismir2018'
 TWITTER_WIDGET_ID = '516222825451888640'
 
-PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
-#PLUGIN_PATHS = ['/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-plugins/']
+if doLocal:
+    PLUGIN_PATHS = ['/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-plugins/']
+else:
+    PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
 
 PLUGINS = ['assets', 'jinja2content', 'sitemap', 'gallery',
             'i18n_subsites',
