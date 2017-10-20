@@ -95,7 +95,7 @@ PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
 #PLUGIN_PATHS = ['/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-plugins/']
 
 PLUGINS = ['assets', 'jinja2content', 'sitemap', 'gallery',
-            'i18n_subsites',
+            # 'i18n_subsites',
             'render_math',
             'neighbors',
         #    'liquid_tags.img', 'liquid_tags.video',
@@ -149,7 +149,7 @@ MARKDOWN = {
     }
 }
 
-JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
+# JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
 # I18N_SUBSITES = {
 #     'fr': {
