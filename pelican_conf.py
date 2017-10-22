@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 import os
 
-SITENAME = "ISMIR 2018" 
+SITENAME = "ISMIR 2018"
 SITEURL = 'http://ismir2018.ircam.fr'
 # AUTHOR = 'Guillaume Pellerin'
 # Uncomment following line if you want document-relative URLs when developing
@@ -166,7 +166,7 @@ PELICANGIT_SOURCE_BRANCH="master"
 PELICANGIT_DEPLOY_REPO=OUTPUT_PATH
 PELICANGIT_DEPLOY_REMOTE="origin"
 PELICANGIT_DEPLOY_BRANCH="master"
-PELICANGIT_DEPLOY_IS_LOCAL_DIR = True
+PELICANGIT_DEPLOY_IS_LOCAL_DIR = TrueFAVI
 
 PELICANGIT_USER = "root"
 PELICANGIT_WHITELISTED_FILES = [
@@ -198,4 +198,4 @@ EXTRA_PATH_METADATA = {
 
 SHOW_DATE_MODIFIED = False
 
-FAVICON = ''
+FAVICON = BANNER
