@@ -199,3 +199,5 @@ EXTRA_PATH_METADATA = {
 SHOW_DATE_MODIFIED = False
 
 FAVICON = './images/ismir2018logo_black_long.png'
+
+TrueFAVI = ''
