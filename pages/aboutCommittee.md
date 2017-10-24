@@ -27,7 +27,7 @@ parent: about
 
 |  |
 |: -------------   :|
-| Hélène Papadopoulos|
+| Hélène Papadopoulos|
 | CNRS I2S |
 | ![]({filename}/images/unknown_200.png) |
 
@@ -43,8 +43,8 @@ parent: about
 
 |  | |
 |: -------------   :|: -------------   :|
-| _ | _ |
-| _ | _ |
+| Audrey Laplante | Eva Zangerle |
+| University of Montreal, Canada |  University of Innsbruck, Austria |
 | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) |
 
 
