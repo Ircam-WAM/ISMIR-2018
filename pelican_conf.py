@@ -99,6 +99,11 @@ MENUITEMS = [
     ('About ISMIR', '/pages/about-ismir.html'),
     ('Organizing Committee', '/pages/about-organizing-committee.html'),
     ]),
+('Links', [('Télécom ParisTech', 'https://www.telecom-paristech.fr/'),
+            ('IRCAM', 'http://www.ircam.fr'),
+            ('ismir.net', 'http://www.ismir.net/'),
+            ('Women in MIR', 'https://wimir.wordpress.com/'),
+          ]),
 ]
 FAVICON_TYPE = 'png'
 FAVICON = '/images/ismir2018logo_black_long.png'
