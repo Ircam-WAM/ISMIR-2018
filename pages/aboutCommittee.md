@@ -11,7 +11,7 @@ parent: about
 |  |   |   |
 |: -------------   :|: ------------- :|: ------------- :|
 | Slim Essid | Geoffroy Peeters | Gaël Richard |
-| Télécom ParisTech | IRCAM | Télécom ParisTech |
+| Télécom ParisTech, France | IRCAM, France | Télécom ParisTech, France |
 | ![SlimEsiid]({filename}/images/slimessid_200.png) | ![GeoffroyPeeters]({filename}/images/geoffroypeeters_200.png) | ![GaelRichard]({filename}/images/gaelrichard_200.png) |
 
 
@@ -20,7 +20,7 @@ parent: about
 |  |   |   | |
 |: -------------   :|: ------------- :|: ------------- :|: ------------- :|
 | Emilia Gomez | Xiao Hu| Meinard Mueller | Juan Pablo Bello |  
-| Universitat Pompeu Fabra | University of Hong Kong | International Audio Laboratories Erlangen| New York University |
+| University Pompeu Fabra, Spain | University of Hong Kong | International Audio Laboratories Erlangen, Germany| New York University, USA |
 | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) |
 
 ### Tutorial Chair
@@ -28,7 +28,7 @@ parent: about
 |  |
 |: -------------   :|
 | Hélène Papadopoulos|
-| CNRS I2S |
+| CNRS I2S, France |
 | ![]({filename}/images/unknown_200.png) |
 
 ### Sponsorship chair/ Industry Partnership
@@ -53,7 +53,7 @@ parent: about
 |  | |
 |: -------------   :|: -------------   :|
 | Emmanuouil Benetos | Rachel Bittner |
-| Queen Mary University of London |New York University |
+| Queen Mary University of London, UK |New York University, USA |
 | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) |
 
 ### Unconference
@@ -61,7 +61,7 @@ parent: about
 |  |
 |: -------------   :|
 | Cynthia C.S. Liem |
-| TU Delft |
+| TU Delft, The Nederlands |
 | ![]({filename}/images/unknown_200.png) |
 
 ### Music and Technology Chair
@@ -69,7 +69,7 @@ parent: about
 |  |  |  |
 |: -------------   :|: -------------   :|: -------------   :|
 | Rebecca Fiebrink | Wendy Mackay |  Frédéric Bevilacqua |
-| Goldsmiths, University of London | INRIA Sacaly | IRCAM |
+| Goldsmiths, University of London, UK | INRIA Saclay, France | IRCAM, France |
 | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) |
 
 ### "Meetup with industry" session chair
@@ -77,5 +77,5 @@ parent: about
 |  |  |  |
 |: -------------   :|: -------------   :|: -------------   :|
 | Jimena Royo-Letelier | Fabien Gouyon | Arshia Cont |
-| Deezer | Pandora | Antescofo |
+| Deezer, France | Pandora, USA | Antescofo, France |
 | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) |
