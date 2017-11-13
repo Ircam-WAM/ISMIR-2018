@@ -9,7 +9,7 @@ SITEURL = 'http://ismir2018.ircam.fr'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-doLocal = True
+doLocal = False
 
 
 
