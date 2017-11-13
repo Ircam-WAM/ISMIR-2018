@@ -7,7 +7,7 @@ order: 1
 parent:
 haschild: false
 
-### Paper submission
+## Paper submission
 
 |Event            | Date
 |:-------------   |:-------------
@@ -16,21 +16,21 @@ haschild: false
 | Notification of Acceptance  | _
 | Camera-Ready Upload         | _
 
-### Tutorials
+## Tutorials
 
 | Event                       |  Date
 |:-------------               |: -------------
 | Proposal Submission         | _
 | Notification of Acceptance  | _
 
-### Late-breaking and Demos
+## Late-breaking and Demos
 
 | Event             | Date
 |:-------------     |: -------------
 | Submissions Open  | _
 | Submissions Close | _
 
-### Registration
+## Registration
 
 | Event                             | Date
 |:-------------                     |: -------------

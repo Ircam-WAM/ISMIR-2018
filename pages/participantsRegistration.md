@@ -12,6 +12,8 @@ parent: participants
 | General                 | _               | _            
 | Onsite  | _             | _               | _            
 
+<BR>
+
 | **Standard Registration**| **Tutorial**    | **Main conference**
 |:-------------           |:-------------   |:-------------
 | Early                   | _               | _            

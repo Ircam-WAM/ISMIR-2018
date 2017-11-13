@@ -9,10 +9,17 @@ SITEURL = 'http://ismir2018.ircam.fr'
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-#THEME = '/srv/lib/pelican-themes/flex'
-THEME = '/srv/lib/pelican-themes/pelican-chameleon'
-#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/flex2'
-#THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-bootstrap3'
+doLocal = True
+
+
+
+if doLocal:
+    #THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/flex2'
+    THEME = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-themes/pelican-chameleon-master'
+else:
+    #THEME = '/srv/lib/pelican-themes/flex'
+    THEME = '/srv/lib/pelican-themes/pelican-chameleon'
+
 #BOOTSTRAP_THEME = 'united'
 BOOTSTRAP_THEME = 'yeti'
 
@@ -48,7 +55,6 @@ DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 # CUSTOM_CSS = 'themes/bootswatch/slate/slate/bootstrap.css'
 
-doLocal = False
 
 if doLocal:
     PATH = '/Users/peeters/Dropbox/_work/_develop/_python/_pelican/var/in'
@@ -81,10 +87,21 @@ TRANSLATION_FEED_ATOM = None
 
 MENUITEMS = [
 ('Home', '/'),
-('Important Dates', '/pages/important-dates.html'),
+('Dates', '/pages/important-dates.html'),
+('Call', [
+    ('Call for Papers', '/pages/call-papers.html'),
+    ('Call for Tutorials', '/pages/call-tutorials.html'),
+    ('Call for Late Breaking / Demo', '/pages/call-lbd.html'),
+    ('Guidelines for Reviewers', '/pages/call-guidelines-reviewers.html'),
+    ('Information for Presenters', '/pages/call-information-presenters.html'),
+    ('Submission', '/pages/call-submission.html'),
+    ]),
 ('Participants', [
-    ('Venue', '/pages/participants-venue.html'),
     ('Registration', '/pages/participants-registration.html'),
+    ('Venue', '/pages/participants-venue.html'),
+    ('Travel', '/pages/participants-travel.html'),
+    ('Financial Supports (Grants)', '/pages/participants-financial-supports.html'),
+    ('Accomodations', '/pages/participants-accomodations.html'),
     ]),
 ('Events-Main', [
     ('All events at a glance', '/pages/events-at-a-glance.html'),
@@ -116,10 +133,10 @@ LINKS =  (('Télécom ParisTech', 'https://www.telecom-paristech.fr/'),
           )
 
 # Social widget
-#SOCIAL = (('Twitter', 'https://twitter.com/Ircam/'),
-#          ('GitHub', 'https://github.com/Ircam-RnD/'),
-#          )
-SOCIAL = ()
+SOCIAL = (('Twitter', 'https://twitter.com/Ircam/'),
+          ('GitHub', 'https://github.com/Ircam-RnD/'),
+          )
+#SOCIAL = ()
 
 #DISQUS_SITENAME='ismir2018'
 GITHUB_USER = 'ismir2018'
@@ -128,12 +145,12 @@ TWITTER_USERNAME = 'ismir2018'
 TWITTER_WIDGET_ID = '516222825451888640'
 
 if doLocal:
-    PLUGIN_PATHS = ['/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-plugins/']
+    PLUGIN_PATHS = ['/Users/peeters/Dropbox/_work/_develop/_python/_pelican/pelican-plugins']
 else:
     PLUGIN_PATHS = ['/srv/lib/pelican-plugins']
 
 PLUGINS = ['assets', 'jinja2content', 'sitemap', 'gallery',
-            # 'i18n_subsites',
+            'i18n_subsites',
             'render_math',
             'neighbors',
         #    'liquid_tags.img', 'liquid_tags.video',
@@ -141,6 +158,10 @@ PLUGINS = ['assets', 'jinja2content', 'sitemap', 'gallery',
         #    'liquid_tags.include_code',
         #    'liquid_tags.notebook',
            ]
+
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
 
 SITEMAP = {
 

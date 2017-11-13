@@ -9,3 +9,7 @@ Illustration: black.png
 
 The 19th International Society for Music Information Retrieval Conference will take place in Paris, France, from September 23-27, 2018.
 It is a join organization between Télécom ParisTech and IRCAM.
+
+The following is a preliminary provisional planning of the conference subject to adaptations.
+
+![Program]({filename}/images/program2.png)
