@@ -52,9 +52,9 @@ parent: about
 
 |  | |
 |: -------------   :|: -------------   :|
-| Emmanuouil Benetos | Rachel Bittner |
+| Emmanouil Benetos | Rachel Bittner |
 | Queen Mary University of London, UK |New York University, USA |
-| ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) |
+| ![]({filename}/images/benetos_200.jpg) | ![]({filename}/images/unknown_200.png) |
 
 ### Unconference
 
