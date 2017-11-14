@@ -48,7 +48,7 @@ parent: about
 | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) |
 
 
-### Late Breaking, Demos, Unconference
+### Late Breaking News and Demos 
 
 |  | |
 |: -------------   :|: -------------   :|
