@@ -10,7 +10,7 @@ parent: about
 
 |  |   |   |
 |: -------------   :|: ------------- :|: ------------- :|
-| Slim Essid | Geoffroy Peeters | Gaël Richard |
+| Slim Essid |  Geoffroy Peeters | Gaël Richard  |
 | Télécom ParisTech, France | IRCAM, France | Télécom ParisTech, France |
 | ![SlimEsiid]({filename}/images/slimessid_200.png) | ![GeoffroyPeeters]({filename}/images/geoffroypeeters_200.png) | ![GaelRichard]({filename}/images/gaelrichard_200.png) |
 
@@ -21,7 +21,7 @@ parent: about
 |: -------------   :|: ------------- :|: ------------- :|: ------------- :|
 | Emilia Gomez | Xiao Hu| Meinard Mueller | Juan Pablo Bello |  
 | University Pompeu Fabra, Spain | University of Hong Kong | International Audio Laboratories Erlangen, Germany| New York University, USA |
-| ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) |
+| ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/mueller_200.jpg) | ![]({filename}/images/unknown_200.png) |
 
 ### Tutorial Chair
 
@@ -48,7 +48,7 @@ parent: about
 | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) |
 
 
-### Late Breaking News and Demos 
+### Late Breaking News and Demos
 
 |  | |
 |: -------------   :|: -------------   :|
