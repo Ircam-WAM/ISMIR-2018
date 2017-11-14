@@ -21,7 +21,7 @@ parent: about
 |: -------------   :|: ------------- :|: ------------- :|: ------------- :|
 | Emilia Gomez | Xiao Hu| Meinard Mueller | Juan Pablo Bello |  
 | University Pompeu Fabra, Spain | University of Hong Kong | International Audio Laboratories Erlangen, Germany| New York University, USA |
-| ![]({filename}/images/unknown_200.png) | ![]({filename}/images/xiaoxhu_200.jpg) | ![]({filename}/images/mueller_200.jpg) | ![]({filename}/images/unknown_200.png) |
+| ![]({filename}/images/unknown_200.png) | ![]({filename}/images/xiaoxhu_200.jpg) | ![]({filename}/images/mueller_200.jpg) | ![]({filename}/images/bello_200.png) |
 
 ### Tutorial Chair
 
