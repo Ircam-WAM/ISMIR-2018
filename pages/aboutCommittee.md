@@ -12,7 +12,7 @@ parent: about
 |: -------------   :|: ------------- :|: ------------- :|
 | Slim Essid |  Geoffroy Peeters | Gaël Richard  |
 | Télécom ParisTech, France | IRCAM, France | Télécom ParisTech, France |
-| ![SlimEsiid]({filename}/images/slimessid_200.png) | ![GeoffroyPeeters]({filename}/images/geoffroypeeters_200.png) | ![GaelRichard]({filename}/images/gaelrichard_200.png) |
+| ![SlimEsiid]({filename}/images/people_slimessid_200.png) | ![GeoffroyPeeters]({filename}/images/people_geoffroypeeters_200.png) | ![GaelRichard]({filename}/images/people_gaelrichard_200.png) |
 
 
 ### Program Chairs
@@ -21,7 +21,7 @@ parent: about
 |: -------------   :|: ------------- :|: ------------- :|: ------------- :|
 | Emilia Gomez | Xiao Hu| Meinard Mueller | Juan Pablo Bello |  
 | University Pompeu Fabra, Spain | University of Hong Kong | International Audio Laboratories Erlangen, Germany| New York University, USA |
-| ![]({filename}/images/unknown_200.png) | ![]({filename}/images/xiaoxhu_200.jpg) | ![]({filename}/images/mueller_200.jpg) | ![]({filename}/images/bello_200.png) |
+| ![]({filename}/images/unknown_200.png) | ![]({filename}/images/people_xiaoxhu_200.jpg) | ![]({filename}/images/people_mueller_200.jpg) | ![]({filename}/images/people_bello_200.png) |
 
 ### Tutorial Chair
 
@@ -37,7 +37,7 @@ parent: about
 |: -------------   :|
 | Blair Kaneshiro |
 | Stanford University, USA |
-| ![]({filename}/images/unknown_200.png) |
+| ![]({filename}/images/people_kaneshiro_200.jpg) |
 
 ### Women in MIR
 
@@ -54,7 +54,7 @@ parent: about
 |: -------------   :|: -------------   :|
 | Emmanouil Benetos | Rachel Bittner |
 | Queen Mary University of London, UK |New York University, USA |
-| ![]({filename}/images/benetos_200.jpg) | ![]({filename}/images/unknown_200.png) |
+| ![]({filename}/images/people_benetos_200.jpg) | ![]({filename}/images/people_bittner_200.jpg) |
 
 ### Unconference
 
@@ -62,7 +62,7 @@ parent: about
 |: -------------   :|
 | Cynthia C.S. Liem |
 | TU Delft, The Nederlands |
-| ![]({filename}/images/unknown_200.png) |
+| ![]({filename}/images/people_liem_200.png) |
 
 ### Music and Technology Chair
 
@@ -78,4 +78,4 @@ parent: about
 |: -------------   :|: -------------   :|: -------------   :|
 | Jimena Royo-Letelier | Fabien Gouyon | Arshia Cont |
 | Deezer, France | Pandora, USA | Antescofo, France |
-| ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) | ![]({filename}/images/unknown_200.png) |
+| ![]({filename}/images/unknown_200.png) | ![]({filename}/images/people_gouyon.jpg) | ![]({filename}/images/unknown_200.png) |
