@@ -24,10 +24,10 @@ ISMIR 2018 offers sponsorship opportunities at Platinum, Gold, Silver and Bronze
 |                           | Platinum        | Gold      | Silver          | Bronze
 |:-------------             |:------------- |:------------- |:------------- |:-------------
 |                           | EUR5000+        | EUR3000-5000      | EUR1500-3000          | EUR500-1500
-| Logo(1)                   | Large             | Medium             | Small             | Miniature
-| Poster and table(2)       | Yes             | Yes             | _             | _
-| Full conference registrations(3)  | 3             | 1             | _             | _
-| Promotional items(4)      | 3             | 1             | 1             | _
+| Logo<sup>(1)</sup>                   | Large             | Medium             | Small             | Miniature
+| Poster and table<sup>(2)</sup>        | Yes             | Yes             | _             | _
+| Full conference registrations<sup>(3)</sup>    | 3             | 1             | _             | _
+| Promotional items<sup>(4)</sup>        | 3             | 1             | 1             | _
 
 
 We also welcome sponsorship contributions for specific initiatives including student travel awards, best paper and presentation awards, and social events.
@@ -40,20 +40,20 @@ Sponsors are also encouraged to support a diverse and inclusive MIR community by
 
 |                           | EUR5000+        | EUR2500-5000      | EUR500-2500
 |:-------------             |:------------- |:------------- |:-------------
-| Logo(5)                   | Large             | Medium             | Small
-| Social media acknowledgment(6)       | Yes             | Yes             | Yes
+| Logo<sup>(5)</sup>                     | Large             | Medium             | Small
+| Social media acknowledgment<sup>(6)</sup>         | Yes             | Yes             | Yes
 
 
 Please contact <ismir2018-sponsorship@ircam.fr> if you are interested in participating as a WiMIR sponsor!
 
-(1) Refers to logo placement on all pages of the ISMIR 2018 conference website, as well as on the Sponsors web page; conference banners; printed program; and anywhere else sponsor logos are placed.
+<sup>(1)</sup>   Refers to logo placement on all pages of the ISMIR 2018 conference website, as well as on the Sponsors web page; conference banners; printed program; and anywhere else sponsor logos are placed.
 
-(2) Poster and table will be placed in poster area or coffee-break area for the duration of the conference. Poster printing will be provided by the conference.
+<sup>(2)</sup>   Poster and table will be placed in poster area or coffee-break area for the duration of the conference. Poster printing will be provided by the conference.
 
-(3) Full conference registration includes the main program, social events, and up to 2 tutorials.
+<sup>(3)</sup>   Full conference registration includes the main program, social events, and up to 2 tutorials.
 
-(4) Promotional items are provided and delivered to the conference at the expense of the sponsor.
+<sup>(4)</sup>   Promotional items are provided and delivered to the conference at the expense of the sponsor.
 
-(5) Refers to logo placement on the ISMIR 2018 WiMIR web page, in WiMIR plenary session slides, in the printed program, on the ISMIR 2018 WiMIR poster, and in a post-conference blog post.
+<sup>(5)</sup>   Refers to logo placement on the ISMIR 2018 WiMIR web page, in WiMIR plenary session slides, in the printed program, on the ISMIR 2018 WiMIR poster, and in a post-conference blog post.
 
-(6) Acknowledgement of thanks from the WiMIR Twitter account.
+<sup>(6)</sup>   Acknowledgement of thanks from the WiMIR Twitter account.
