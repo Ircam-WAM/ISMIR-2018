@@ -181,7 +181,7 @@ SITEMAP = {
 # Content licensing: CC-BY
 CC_LICENSE = "CC-BY"
 
-# GOOGLE_ANALYTICS = 'UA-6573030-16'
+GOOGLE_ANALYTICS = 'UA-96122525-3'
 
 GALLERY_PATH = '/var/in/img/gallery/'
 
